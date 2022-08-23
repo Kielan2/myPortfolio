@@ -24,14 +24,8 @@
     display: none;
 }
 
-.hover:hover {
-    transition: transform 0.3s ease-in;
-    transform: scale(1.2) !important;
-    color: rgb(255, 50, 71) !important;
-}
-
 .menu h1 {
-    padding-top: 150px;  
+    padding-top: 50px;  
     text-align: left;
     padding-left: 4.5rem;
     padding-bottom: .5rem;
@@ -42,65 +36,40 @@
     background-color: rgba(30, 207, 163, 0.61);
     border-radius: 10px;
     width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
-.menuList {
+.skills {
     list-style-type: none;
-    padding-top: 50px;
-}
-
-.menuList > li {
-    padding-top: 30px;
-}
-
-.menuList > li > a {
-    color: ghostwhite !important;
-    text-decoration: none;
-}
-
-.infoList {
-    list-style-type: none;
-    
-}
-
-.infoList > li {
-    padding: 10px;
-}
-
-.infoList > li > a {
-    text-decoration: none;
-    color: ghostwhite;
+    font-size: large;
 }
 
 .iconList {
     list-style-type: none;
+    display: flex;
     justify-content: center;
-    padding-top: 10rem;
 }
 
 .iconList > li {
-    padding: 20px 0;
-    align-content: center;
-    justify-content: center;
-    border-bottom: 1px ghostwhite solid;
-    width: 100px;
+    padding:  0;
 }
 
 .iconList > li > a {
     text-decoration: none;
-    color: ghostwhite;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    padding: 0 10px;
+    color: rgb(2, 46, 35);
+    padding: 10px;
 }
 
 .iconList * .MuiSvgIcon-root {
-    color: ghostwhite;
-    
+    color: rgb(2, 46, 35);
+    font-size: 3rem;
 }
 
 .iconList * .MuiSvgIcon-root:hover {
     transition: transform 0.3s ease-in;
     transform: scale(1.2) !important;
+    color: ghostwhite;
+
 }

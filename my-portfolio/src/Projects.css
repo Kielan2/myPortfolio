@@ -14,7 +14,7 @@
 }
 
 .projects img {
-    height: 300px;
+    height: 20rem;
     border-radius: 10px;
     pointer-events: none;
 }
@@ -24,7 +24,7 @@
     justify-content: space-evenly;
     padding: 5rem;
     align-items: center;
-    background-color: rgba(248, 132, 0, 0.6);
+    background-color: rgba(30, 207, 163, 0.61);
     margin: 5rem;
     border-radius: 3rem;
 }

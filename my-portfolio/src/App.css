@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300;400;700&display=swap');
+
 .App {
   text-align: center;
   display: flex;
+  font-family: 'Exo', sans-serif;
 }
 
 .App-logo {
