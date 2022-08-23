@@ -1,0 +1,43 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+}
+
+.projects h2 {
+    text-align: left;
+    margin: 15rem 0 0 10rem;
+    font-size: xx-large;
+}
+
+.projects h3 {
+    font-size: 2.5rem;
+}
+
+.projects img {
+    height: 300px;
+    border-radius: 10px;
+    pointer-events: none;
+}
+
+.project {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5rem;
+    align-items: center;
+    background-color: rgba(248, 132, 0, 0.6);
+    margin: 5rem;
+    border-radius: 3rem;
+}
+
+.project a {
+    text-decoration: none;
+    color: ghostwhite;
+}
+
+.projects > footer {
+    margin-bottom: 3rem;
+}
+
+.projects > footer > span {
+    color: ghostwhite;
+}

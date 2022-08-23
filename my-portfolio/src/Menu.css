@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    height: 100vh;
+    width: 25%;
+    color: ghostwhite;
+    min-width: 200px;
+    background-color: rgb(3, 3, 3);
+    position: fixed;
+    top: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu::-webkit-scrollbar {
+    display: none;
+}
+
+.hover:hover {
+    transition: transform 0.3s ease-in;
+    transform: scale(1.2) !important;
+    color: rgb(255, 50, 71) !important;
+}
+
+.menu h1 {
+    padding-top: 150px;  
+    text-align: left;
+    padding-left: 4.5rem;
+    padding-bottom: .5rem;
+}
+
+.border {
+    height: 95%;
+    background-color: rgba(30, 207, 163, 0.61);
+    border-radius: 10px;
+    width: 90%;
+}
+
+.menuList {
+    list-style-type: none;
+    padding-top: 50px;
+}
+
+.menuList > li {
+    padding-top: 30px;
+}
+
+.menuList > li > a {
+    color: ghostwhite !important;
+    text-decoration: none;
+}
+
+.infoList {
+    list-style-type: none;
+    
+}
+
+.infoList > li {
+    padding: 10px;
+}
+
+.infoList > li > a {
+    text-decoration: none;
+    color: ghostwhite;
+}
+
+.iconList {
+    list-style-type: none;
+    justify-content: center;
+    padding-top: 10rem;
+}
+
+.iconList > li {
+    padding: 20px 0;
+    align-content: center;
+    justify-content: center;
+    border-bottom: 1px ghostwhite solid;
+    width: 100px;
+}
+
+.iconList > li > a {
+    text-decoration: none;
+    color: ghostwhite;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 0 10px;
+}
+
+.iconList * .MuiSvgIcon-root {
+    color: ghostwhite;
+    
+}
+
+.iconList * .MuiSvgIcon-root:hover {
+    transition: transform 0.3s ease-in;
+    transform: scale(1.2) !important;
+}
