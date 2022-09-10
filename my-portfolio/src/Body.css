@@ -1,9 +1,8 @@
 .body {
     height: 100vh;
     color: ghostwhite;
-    width: 75%;
-    padding-top: 20px;
-    background: linear-gradient(rgb(2, 46, 35), rgb(0,0,0));
+    width: 77%;
+    background: linear-gradient(#1d5d8b, rgb(0,0,0));
     overflow-y: overlay;
     position: fixed;
     right: 0;

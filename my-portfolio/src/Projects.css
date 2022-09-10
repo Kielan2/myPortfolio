@@ -24,14 +24,14 @@
     justify-content: space-evenly;
     padding: 5rem;
     align-items: center;
-    background-color: rgba(30, 207, 163, 0.61);
+    background-color: #d7dcdd;
     margin: 5rem;
     border-radius: 3rem;
 }
 
 .project a {
     text-decoration: none;
-    color: ghostwhite;
+    color: #1b81ca;
 }
 
 .projects > footer {

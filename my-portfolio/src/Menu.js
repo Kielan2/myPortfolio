@@ -7,12 +7,15 @@ import EmailIcon from '@mui/icons-material/Email';
 function Menu() {
   return (
       <div className='menu'>
-        <div className="border">
+        
         <div>
-        <h1>Get in touch</h1>
-        <span>Reach out and let's start a conversation!</span>
+        <img src="/profilePic.jpg" alt="Profile Pic" className='propic'/>
+        <h1>Kielan Anderson</h1>
+        
+        
         </div>
-        <ul className="skills">
+        <div><span>Skills</span>
+        <ul className='skills'>
             <li>HTML5</li>
             <li>CSS3</li>
             <li>JavaScript</li>
@@ -21,8 +24,10 @@ function Menu() {
             <li>ReactJS</li>
             <li>NodeJS</li>
             <li>SEO</li>
+            <li>GIT</li>
             <li>UX/UI</li>
         </ul>
+        </div>
         
         <ul className="iconList">
             <li><a href='https://www.linkedin.com/in/kielan-anderson/'><LinkedInIcon fontSize='large' /></a></li>
@@ -31,7 +36,7 @@ function Menu() {
         </ul>
         
         
-        </div>
+        
     </div>
   )
 }

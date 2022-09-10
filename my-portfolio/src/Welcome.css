@@ -1,12 +1,12 @@
 .welcome {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: left;
     align-items: center;
     padding-top: 5rem;
+    margin-left: 10rem;
 }
 
-.welcome img {
-    height: 500px;
-    border-radius: 10px;
-    pointer-events: none;
+.welcome h1 {
+    font-size: 3rem;
+    text-align: left;
 }
